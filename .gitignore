@@ -1,0 +1,4 @@
+node_modules/
+03-websocket/venv/
+03-websocket/__pycache__/
+.env

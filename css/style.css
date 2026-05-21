@@ -1,0 +1,29 @@
+/* styles básicos */
+body {
+  font-family: 'Epilogue', sans-serif;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* Mensajes (error / success) */
+#message {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+#message.success {
+  background: rgba(52, 211, 153, 0.12);
+  color: #15803d;
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+
+#message.error {
+  background: rgba(212, 50, 17, 0.06);
+  color: #991b1b;
+  border: 1px solid rgba(212, 50, 17, 0.12);
+}
+
+/* pequeñas utilidades para focus accesible */
+input:focus, select:focus, button:focus {
+  outline: 2px solid rgba(212, 50, 17, 0.12);
+  outline-offset: 2px;
+}
