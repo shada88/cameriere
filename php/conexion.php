@@ -1,9 +1,9 @@
 <?php
 
-$host = "localhost";
-$usuario = "root";
-$password = "";
-$database = "cameriere";
+$host = "b6pkdnlv0pdrewsriiv3-mysql.services.clever-cloud.com";
+$usuario = "up2hyvrxzjgcxzz7";
+$password = "p0hxfjh42SouMdr3Qniq";
+$database = "b6pkdnlv0pdrewsriiv3";
 
 $conn = new mysqli($host, $usuario, $password, $database);
 
