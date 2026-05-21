@@ -1,7 +1,3 @@
--- Crear la base de datos
-CREATE DATABASE restaurante_db;
-USE restaurante_db;
-
 -- =========================
 -- TABLA ADMINISTRADORES
 -- =========================
